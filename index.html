@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <title>Site Web</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <section class="container flex top-50 flex space-between">
+
+        <!-- barre latéral -->
+         <nav class="lateral-nav w15 ">
+        <div class="sticky top-70">
+            <button class="btn-category btn-selected" id="allBtn"> All</button>
+            <button class="btn-category" id="menBtn"> Men's cloting</button>
+            <button class="btn-category" id="womanBtn"> Women's cloting</button>
+            <button class="btn-category" id="jewelBtn"> Jewelry</button>
+            <button class="btn-category" id="elecBtn"> Electronics</button>
+        </div>
+         </nav>
+
+
+
+        <!-- contaienr carte -->
+        <div class="cards-container flex space-between w80 align-center " id="cards-container">
+
+            <div class="card w48 flex space-between" data-id="1">
+
+                <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h3>
+                        <p>men's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">109.95€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="2">
+
+                <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Mens Casual Premium Slim Fit T-Shirts </h3>
+                        <p>men's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">22.3€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="3">
+
+                <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Mens Cotton Jacket</h3>
+                        <p>men's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">55.99€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="4">
+
+                <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Mens Casual Slim Fit</h3>
+                        <p>men's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">15.99€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="5">
+
+                <img src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet</h3>
+                        <p>jewelery</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">695€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="6">
+
+                <img src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Solid Gold Petite Micropave </h3>
+                        <p>jewelery</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">168€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="7">
+
+                <img src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>White Gold Plated Princess</h3>
+                        <p>jewelery</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">9.99€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="8">
+
+                <img src="https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Pierced Owl Rose Gold Plated Stainless Steel Double</h3>
+                        <p>jewelery</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">10.99€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="9">
+
+                <img src="https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>WD 2TB Elements Portable External Hard Drive - USB 3.0 </h3>
+                        <p>electronics</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">64€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="10">
+
+                <img src="https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</h3>
+                        <p>electronics</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">109€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="11">
+
+                <img src="https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</h3>
+                        <p>electronics</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">109€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="12">
+
+                <img src="https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</h3>
+                        <p>electronics</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">114€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="13">
+
+                <img src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</h3>
+                        <p>electronics</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">599€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="14">
+
+                <img src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED </h3>
+                        <p>electronics</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">999.99€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="15">
+
+                <img src="https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</h3>
+                        <p>women's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">56.99€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="16">
+
+                <img src="https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</h3>
+                        <p>women's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">29.95€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="17">
+
+                <img src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Rain Jacket Women Windbreaker Striped Climbing Raincoats</h3>
+                        <p>women's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">39.99€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="18">
+
+                <img src="https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>MBJ Women's Solid Short Sleeve Boat Neck V </h3>
+                        <p>women's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">9.85€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="19">
+
+                <img src="https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>Opna Women's Short Sleeve Moisture</h3>
+                        <p>women's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">7.95€</p>
+                </div>
+            </div>
+
+
+        
+
+            <div class="card w48 flex space-between" data-id="20">
+
+                <img src="https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png" alt="" class="w20">
+
+
+                <div class="flex space-between align-center w70">
+                    <div class="w70">
+                        <h3>DANVOUY Womens T Shirt Casual Cotton Short</h3>
+                        <p>women's clothing</p>
+                        <div>★★★★</div>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <p class="prix w20">12.99€</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
