@@ -1,40 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-.flex-end{
-   justify-content: flex-end;
+.flex-end {
+    justify-content: flex-end;
 }
 
-.gap-40{
+.gap-40 {
     gap: 10px;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -42,61 +43,73 @@ box-sizing: border-box;
 }
 
 
-.bg{
+.bg {
     background-color: red;
 }
-.bg2{
+
+.bg2 {
     background-color: rgb(196, 107, 107);
 }
+
 .w15 {
     width: 15%;
 }
-.w10{width: 
-    10%;}
-.w20{width: 20%;}
-.w30{width: 30%;}
-.w48{width: 48%;}
-.w70{
+
+.w10 {
+    width: 10%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+.w70 {
     width: 70%;
 }
+
 .w80 {
     width: 80%;
 }
+
 .w85 {
     width: 85%;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .logo {
-     font-family: "Bebas Neue", sans-serif;
-     font-size: 30px;
-     color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    color: black;
 }
 
-.div-input{
+.div-input {
     width: 25%;
-    /*background-color: rgb(215, 215, 215);*/
-    padding: 10px 10px;
+    padding:
+        10px 10px;
     border-radius: 10px;
-     border: solid 2px black;
+    border: solid 2px black;
 }
 
-.div-input input{
+header {
     width: 90%;
-    /*background-color: rgb(215, 215, 215);*/
-    border: none;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    background-color: white;
 }
 
-header{
-   width: 90%;
-   margin: auto;
-   margin-bottom: 30px;
-   padding: 10px 0px;
-   background-color: white;
-}
-
-.shop-btn{
+.shop-btn {
     border: none;
     color: black;
     font-size: 30px;
@@ -110,9 +123,10 @@ header{
     background-size: cover;
 }
 
-.top-50{
+.top-50 {
     margin-top: 50px;
 }
+
 .card {
     background-color: #f3f3f3;
     padding: 30px;
@@ -120,7 +134,7 @@ header{
     margin-bottom: 30px;
 }
 
-.card:hover{
+.card:hover {
     background-color: #ded2ff;
 }
 
@@ -130,13 +144,13 @@ header{
     object-position: top;
 }
 
-.card h3{
+.card h3 {
 
-     font-family: "Bebas Neue", sans-serif;
-     font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
 }
 
-.btn-category{
+.btn-category {
     font-family: "Bebas Neue", sans-serif;
     width: 100%;
     padding: 20px 5px;
@@ -153,45 +167,50 @@ header{
     transition: colore 3s;
 }
 
-.btn-selected{
+.btn-selected {
     background-color: #9276DD;
     color: white;
 }
 
-.prix{
+.prix {
     background-color: black;
     border-radius: 5px;
     padding: 15px 10px;
     width: fit-content;
-    color:white;
+    color: white;
 }
 
 
-.sticky{
+.sticky {
     position: sticky;
     left: 0;
 }
 
-.top-70{top: 70px;}
-.top-0{top: 0px;}
+.top-70 {
+    top: 70px;
+}
+
+.top-0 {
+    top: 0px;
+}
 
 
-.modal{
+.modal {
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 50vh;
-    left:50vw;
+    left: 50vw;
     transform: translate(-50%, -50%);
     background-color: #b9b9b961;
 }
 
-.modal-content{
-width: 80%;
+.modal-content {
+    width: 80%;
     background-color: red;
     padding: 40px;
     position: fixed;
     top: 50vh;
-    left:50vw;
+    left: 50vw;
     transform: translate(-50%, -50%);
 }
